@@ -7,12 +7,15 @@
 // 1. Make a roster variable and set it to an array of the players.
 var roster = ['Judy Kim', 'Sam Fishinbottom', 'Mike Pittz', 'Amy Vlor', 'Greg Craig', 'Craig Greg', 'Lex Luger', 'Klempt Klarc', 'Amit Patel', 'Joanne Fabric', 'Margaret Kalanchoe', 'Lucy Bascetta'];
 console.log("1. The Roster\n")
+console.log(roster);
 
 
 
 console.log("\n");
 // 2. Set the batting lineup to the last 9 people on the roster.
 console.log("2. The Lineup\n")
+var lineup = ['Amy Vlor', 'Greg Craig', 'Craig Greg', 'Lex Luger', 'Klempt Klarc', 'Amit Patel', 'Joanne Fabric', 'Margaret Kalanchoe', 'Lucy Bascetta'];
+console.log(lineup);
 
 
 
@@ -21,6 +24,8 @@ console.log('\n');
 //    Then, print to the console the batter's name append with " is up
 //    to bat!".
 console.log("3. Batter Up!\n")
+var batterUp = lineup[0];
+console.log(batterUp + ' is up to bat!');
 
 
 
