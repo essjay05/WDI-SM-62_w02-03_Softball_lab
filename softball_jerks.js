@@ -5,6 +5,7 @@
 // A. ||||||| ARRAY PLAY! |||||||
 
 // 1. Make a roster variable and set it to an array of the players.
+var roster = ['Judy Kim', 'Sam Fishinbottom', 'Mike Pittz', 'Amy Vlor', 'Greg Craig', 'Craig Greg', 'Lex Luger', 'Klempt Klarc', 'Amit Patel', 'Joanne Fabric', 'Margaret Kalanchoe', 'Lucy Bascetta'];
 console.log("1. The Roster\n")
 
 
