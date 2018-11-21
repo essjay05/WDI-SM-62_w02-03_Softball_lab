@@ -14,7 +14,7 @@ console.log(roster);
 console.log("\n");
 // 2. Set the batting lineup to the last 9 people on the roster.
 console.log("2. The Lineup\n")
-var lineup = ['Amy Vlor', 'Greg Craig', 'Craig Greg', 'Lex Luger', 'Klempt Klarc', 'Amit Patel', 'Joanne Fabric', 'Margaret Kalanchoe', 'Lucy Bascetta'];
+var lineup = roster.slice(3, 11);
 console.log(lineup);
 
 
@@ -38,6 +38,14 @@ console.log('\n');
 //    console, "Lex take us home!", otherwise, print "Get us on base
 //    Lex!"
 console.log('4. Take Us Home, Slugger\n')
+var slugger = lineup[3];
+var onBase = 1;
+
+if ( onBase >= 2) {
+    console.log(slugger + ", take us home!")
+} else {
+    console.log("Get us on base, " + slugger + "!");
+};
 
 
 
@@ -48,6 +56,14 @@ console.log('\n');
 //    pitcher, and set it to the warmingUp var OR the first spot in the
 //    roster.
 console.log('5. Pitcher or Closer?\n')
+var warmingUp = null;
+var leadingBy = 1;
+if (leadingBy < 2) {
+    warmingUp = 'Sam Fishinbottom';
+    console.log(warmingUp);
+} 
+var pitcher = (warmingUp === null) ? roster[0]: warmingUp;
+    console.log(pitcher);
 
 
 
@@ -56,6 +72,12 @@ console.log('\n');
 //    downBy is greater than 2, tell Sam to go for the knees. Otherwise,
 //    just tell her to strike 'em out.
 console.log('6. Dirty Tricks\n')
+var downBy = 2;
+if (pitcher === 'Sam Fishinbottom' && downBy > 2) {
+    console.log ("Go for the knees, Sam!");
+} else {
+    console.log ("Strike 'em out, Sam!");
+};
 
 
 
