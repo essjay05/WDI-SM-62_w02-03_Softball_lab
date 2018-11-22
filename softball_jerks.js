@@ -87,10 +87,12 @@ console.log('\n');
 //    player, print to the console "<player name> is ready to knock it
 //    out of the park!"
 console.log('7. Run Through the Batting Order\n');
+
 var battingOrder = 0;
 for(var i=0; i < lineup.length; i++) {
     console.log(lineup[i] + " is ready to knock it out of the park!");
 }
+
 
 
 console.log('\n');
@@ -100,6 +102,14 @@ console.log('\n');
 //    <player name>!". Use a for loop!
 console.log('8. The Greg Craig Predicament\n');
 
+var cheeringOrder = 0;
+    for (var i = 0 ; i < lineup.length; i++)
+        if ((lineup[i] === 'Craig Greg') || (lineup[i] === 'Greg Craig')) {
+            var gregInName = ('...Cheer fumble...');
+            console.log(gregInName);
+        } else {
+        console.log ("Let's go " +lineup[i] + "!"); 
+};
 
 
 console.log('\n');
