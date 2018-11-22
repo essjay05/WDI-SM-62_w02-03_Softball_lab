@@ -14,7 +14,7 @@ console.log(roster);
 console.log("\n");
 // 2. Set the batting lineup to the last 9 people on the roster.
 console.log("2. The Lineup\n")
-var lineup = roster.slice(3, 11);
+var lineup = roster.slice(2, 11);
 console.log(lineup);
 
 
@@ -87,7 +87,10 @@ console.log('\n');
 //    player, print to the console "<player name> is ready to knock it
 //    out of the park!"
 console.log('7. Run Through the Batting Order\n');
-
+var battingOrder = 0;
+for(var i=0; i < lineup.length; i++) {
+    console.log(lineup[i] + " is ready to knock it out of the park!");
+}
 
 
 console.log('\n');
