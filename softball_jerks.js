@@ -103,7 +103,7 @@ console.log('\n');
 console.log('8. The Greg Craig Predicament\n');
 
 var cheeringOrder = 0;
-    for (var i = 0 ; i < lineup.length; i++)
+    for (var i = 0 ; i < lineup.length; i++);
         if ((lineup[i] === 'Craig Greg') || (lineup[i] === 'Greg Craig')) {
             var gregInName = ('...Cheer fumble...');
             console.log(gregInName);
@@ -120,4 +120,58 @@ console.log('\n');
 //    characters and print it to the console.
 console.log('9. Long Name Freaks Gotta Go\n');
 
-ƒ
+
+
+
+
+console.log(roster);
+
+var rosterLastNames = [ 'Kim' , 'Fishinbottom' , 'Pittz' , 'Vlor' , 'Craig' , 'Greg' , 'Luger' , 'Klarc' , 'Patel' , 'Fabric' , 'Kalanchoe' , 'Bascetta'];
+var playersCut = rosterLastNames.filter(function(element) {
+    return element.length > 7;
+});
+console.log(playersCut);
+
+/*
+for (var i = 0 ; i < lineup.length; i++);
+    if ((rosterLastNames.filter[i] === 'Craig Greg') || (lineup[i] === 'Greg Craig')) {
+    if (n > 7) {
+        playersCut.push(rosterLastNames);
+        console.log(playersCut);
+    } else {
+    };
+
+*/
+
+/*
+roster.forEach(function(firstName, lastName, array) {
+    console.log(firstName, lastName);
+});
+*/
+
+/*
+var playerLastName = roster.parse(strRoster);
+    for (var i = 0 ; i < roster.length; i++);
+    console.log(playerLastName); */
+
+//create ARRAY of all names (first and last separated)
+
+
+
+/*
+strRoster = strRoster.split();
+console.log(strRoster);
+
+var separateNames = roster.split(' '),
+    lastName = items[items.length-1],
+    firstName = "";
+
+for (var i = 0; i < items.length - 1; i++) {
+   if (i > 0) {
+      firstName += ' ';
+   }
+   firstName += items[i];
+}    
+    for (var i = 0 ; i < roster.length; i++) {}
+    if 
+ƒ */
